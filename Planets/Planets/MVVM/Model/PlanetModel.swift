@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct Planet: Codable {
+struct PlanetModel: Codable {
     
     let name:String
     let orbital_period:String

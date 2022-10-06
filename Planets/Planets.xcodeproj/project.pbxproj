@@ -7,15 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D675D80F28EE9E11001ED048 /* PlanetViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D675D80E28EE9E11001ED048 /* PlanetViewModel.swift */; };
+		D675D81028EE9E11001ED048 /* PlanetViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D675D80E28EE9E11001ED048 /* PlanetViewModel.swift */; };
+		D675D81428EEA7D9001ED048 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = D675D81328EEA7D9001ED048 /* Constant.swift */; };
+		D675D81528EEA7D9001ED048 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = D675D81328EEA7D9001ED048 /* Constant.swift */; };
+		D675D81628EEA7D9001ED048 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = D675D81328EEA7D9001ED048 /* Constant.swift */; };
+		D675D81E28EEAC20001ED048 /* View+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D675D81D28EEAC20001ED048 /* View+Extension.swift */; };
+		D675D81F28EEAC20001ED048 /* View+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D675D81D28EEAC20001ED048 /* View+Extension.swift */; };
+		D675D82028EEAC20001ED048 /* View+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D675D81D28EEAC20001ED048 /* View+Extension.swift */; };
+		D675D82228EEAC5A001ED048 /* ActivityIndicatorViewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D675D82128EEAC5A001ED048 /* ActivityIndicatorViewView.swift */; };
+		D675D82328EEAC5A001ED048 /* ActivityIndicatorViewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D675D82128EEAC5A001ED048 /* ActivityIndicatorViewView.swift */; };
+		D675D82428EEAC5A001ED048 /* ActivityIndicatorViewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D675D82128EEAC5A001ED048 /* ActivityIndicatorViewView.swift */; };
+		D675D82B28EEAF72001ED048 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D675D82928EEAF72001ED048 /* Main.storyboard */; };
+		D675D82C28EEAF72001ED048 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D675D82928EEAF72001ED048 /* Main.storyboard */; };
+		D675D82D28EEAF72001ED048 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D675D82928EEAF72001ED048 /* Main.storyboard */; };
+		D675D83228EED4C2001ED048 /* APIEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = D675D83128EED4C2001ED048 /* APIEnvironment.swift */; };
+		D675D83328EED4C2001ED048 /* APIEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = D675D83128EED4C2001ED048 /* APIEnvironment.swift */; };
+		D675D83528EED735001ED048 /* APIEndPoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = D675D83428EED735001ED048 /* APIEndPoints.swift */; };
+		D675D83628EED735001ED048 /* APIEndPoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = D675D83428EED735001ED048 /* APIEndPoints.swift */; };
+		D675D83828EEEBDA001ED048 /* ServiceError.swift in Sources */ = {isa = PBXBuildFile; fileRef = D675D83728EEEBDA001ED048 /* ServiceError.swift */; };
+		D675D83928EEEBDA001ED048 /* ServiceError.swift in Sources */ = {isa = PBXBuildFile; fileRef = D675D83728EEEBDA001ED048 /* ServiceError.swift */; };
+		D675D83B28EEECBD001ED048 /* PlanetCustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D675D83A28EEECBD001ED048 /* PlanetCustomCell.swift */; };
+		D675D83C28EEECBD001ED048 /* PlanetCustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D675D83A28EEECBD001ED048 /* PlanetCustomCell.swift */; };
+		D675D83E28EEEEDF001ED048 /* LazyImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D675D83D28EEEEDF001ED048 /* LazyImageView.swift */; };
+		D675D83F28EEEEDF001ED048 /* LazyImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D675D83D28EEEEDF001ED048 /* LazyImageView.swift */; };
+		D675D84428EF068E001ED048 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D675D84328EF068E001ED048 /* DetailViewController.swift */; };
+		D675D84528EF068E001ED048 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D675D84328EF068E001ED048 /* DetailViewController.swift */; };
 		D6B0745028EDF6A900FD9E36 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B0744F28EDF6A900FD9E36 /* AppDelegate.swift */; };
 		D6B0745228EDF6A900FD9E36 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B0745128EDF6A900FD9E36 /* SceneDelegate.swift */; };
 		D6B0745428EDF6A900FD9E36 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B0745328EDF6A900FD9E36 /* ViewController.swift */; };
-		D6B0745728EDF6A900FD9E36 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6B0745528EDF6A900FD9E36 /* Main.storyboard */; };
 		D6B0745928EDF6AA00FD9E36 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6B0745828EDF6AA00FD9E36 /* Assets.xcassets */; };
 		D6B0745C28EDF6AA00FD9E36 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6B0745A28EDF6AA00FD9E36 /* LaunchScreen.storyboard */; };
 		D6B0746728EDF6AA00FD9E36 /* PlanetsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B0746628EDF6AA00FD9E36 /* PlanetsTests.swift */; };
-		D6B0747128EDF6AA00FD9E36 /* PlanetsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B0747028EDF6AA00FD9E36 /* PlanetsUITests.swift */; };
-		D6B0747328EDF6AA00FD9E36 /* PlanetsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B0747228EDF6AA00FD9E36 /* PlanetsUITestsLaunchTests.swift */; };
 		D6F36EBA28EDFA1F00D6B20D /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = D6F36EB928EDFA1F00D6B20D /* RxCocoa */; };
 		D6F36EBC28EDFA1F00D6B20D /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = D6F36EBB28EDFA1F00D6B20D /* RxSwift */; };
 		D6F36EBF28EDFBAA00D6B20D /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = D6F36EBE28EDFBAA00D6B20D /* Alamofire */; };
@@ -26,6 +49,8 @@
 		D6F36EC828EDFD4D00D6B20D /* PlanetsResultModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6F36EC728EDFD4D00D6B20D /* PlanetsResultModel.swift */; };
 		D6F36EC928EDFD4D00D6B20D /* PlanetsResultModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6F36EC728EDFD4D00D6B20D /* PlanetsResultModel.swift */; };
 		D6F36ECA28EDFD4D00D6B20D /* PlanetsResultModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6F36EC728EDFD4D00D6B20D /* PlanetsResultModel.swift */; };
+		D6F36EE928EE110900D6B20D /* PlanetService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6F36EE828EE110900D6B20D /* PlanetService.swift */; };
+		D6F36EEA28EE110900D6B20D /* PlanetService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6F36EE828EE110900D6B20D /* PlanetService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,11 +71,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D675D80E28EE9E11001ED048 /* PlanetViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetViewModel.swift; sourceTree = "<group>"; };
+		D675D81328EEA7D9001ED048 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		D675D81D28EEAC20001ED048 /* View+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extension.swift"; sourceTree = "<group>"; };
+		D675D82128EEAC5A001ED048 /* ActivityIndicatorViewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicatorViewView.swift; sourceTree = "<group>"; };
+		D675D82A28EEAF72001ED048 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Planets/Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D675D83128EED4C2001ED048 /* APIEnvironment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIEnvironment.swift; sourceTree = "<group>"; };
+		D675D83428EED735001ED048 /* APIEndPoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIEndPoints.swift; sourceTree = "<group>"; };
+		D675D83728EEEBDA001ED048 /* ServiceError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceError.swift; sourceTree = "<group>"; };
+		D675D83A28EEECBD001ED048 /* PlanetCustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetCustomCell.swift; sourceTree = "<group>"; };
+		D675D83D28EEEEDF001ED048 /* LazyImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyImageView.swift; sourceTree = "<group>"; };
+		D675D84328EF068E001ED048 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		D6B0744C28EDF6A900FD9E36 /* Planets.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Planets.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6B0744F28EDF6A900FD9E36 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D6B0745128EDF6A900FD9E36 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		D6B0745328EDF6A900FD9E36 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		D6B0745628EDF6A900FD9E36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D6B0745828EDF6AA00FD9E36 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D6B0745B28EDF6AA00FD9E36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D6B0745D28EDF6AA00FD9E36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -61,6 +96,7 @@
 		D6B0747228EDF6AA00FD9E36 /* PlanetsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetsUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		D6F36EC328EDFD0500D6B20D /* PlanetModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetModel.swift; sourceTree = "<group>"; };
 		D6F36EC728EDFD4D00D6B20D /* PlanetsResultModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetsResultModel.swift; sourceTree = "<group>"; };
+		D6F36EE828EE110900D6B20D /* PlanetService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +128,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D675D81228EEA78C001ED048 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D675D81328EEA7D9001ED048 /* Constant.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		D675D81728EEA932001ED048 /* UIComponents */ = {
+			isa = PBXGroup;
+			children = (
+				D675D82128EEAC5A001ED048 /* ActivityIndicatorViewView.swift */,
+				D675D83A28EEECBD001ED048 /* PlanetCustomCell.swift */,
+				D675D83D28EEEEDF001ED048 /* LazyImageView.swift */,
+			);
+			path = UIComponents;
+			sourceTree = "<group>";
+		};
+		D675D81C28EEABDD001ED048 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				D675D81D28EEAC20001ED048 /* View+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
 		D6B0744328EDF6A900FD9E36 = {
 			isa = PBXGroup;
 			children = (
@@ -115,13 +177,14 @@
 		D6B0744E28EDF6A900FD9E36 /* Planets */ = {
 			isa = PBXGroup;
 			children = (
+				D675D81C28EEABDD001ED048 /* Extension */,
+				D675D81228EEA78C001ED048 /* Resources */,
 				D6B0748328EDF70400FD9E36 /* Networking */,
 				D6B0747F28EDF6D300FD9E36 /* MVVM */,
 				D6B0744F28EDF6A900FD9E36 /* AppDelegate.swift */,
 				D6B0745128EDF6A900FD9E36 /* SceneDelegate.swift */,
-				D6B0745328EDF6A900FD9E36 /* ViewController.swift */,
-				D6B0745528EDF6A900FD9E36 /* Main.storyboard */,
 				D6B0745828EDF6AA00FD9E36 /* Assets.xcassets */,
+				D675D82928EEAF72001ED048 /* Main.storyboard */,
 				D6B0745A28EDF6AA00FD9E36 /* LaunchScreen.storyboard */,
 				D6B0745D28EDF6AA00FD9E36 /* Info.plist */,
 			);
@@ -167,6 +230,9 @@
 		D6B0748128EDF6E200FD9E36 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				D675D81728EEA932001ED048 /* UIComponents */,
+				D6B0745328EDF6A900FD9E36 /* ViewController.swift */,
+				D675D84328EF068E001ED048 /* DetailViewController.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -174,6 +240,7 @@
 		D6B0748228EDF6E800FD9E36 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				D675D80E28EE9E11001ED048 /* PlanetViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -181,8 +248,36 @@
 		D6B0748328EDF70400FD9E36 /* Networking */ = {
 			isa = PBXGroup;
 			children = (
+				D6F36EE728EE10E000D6B20D /* Service */,
+				D6F36ECC28EE06BE00D6B20D /* EndPoints */,
 			);
 			path = Networking;
+			sourceTree = "<group>";
+		};
+		D6F36ECC28EE06BE00D6B20D /* EndPoints */ = {
+			isa = PBXGroup;
+			children = (
+				D6F36EDA28EE0BC300D6B20D /* BaseEndPoints */,
+				D675D83428EED735001ED048 /* APIEndPoints.swift */,
+			);
+			path = EndPoints;
+			sourceTree = "<group>";
+		};
+		D6F36EDA28EE0BC300D6B20D /* BaseEndPoints */ = {
+			isa = PBXGroup;
+			children = (
+				D675D83128EED4C2001ED048 /* APIEnvironment.swift */,
+			);
+			path = BaseEndPoints;
+			sourceTree = "<group>";
+		};
+		D6F36EE728EE10E000D6B20D /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				D6F36EE828EE110900D6B20D /* PlanetService.swift */,
+				D675D83728EEEBDA001ED048 /* ServiceError.swift */,
+			);
+			path = Service;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -300,9 +395,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D675D82B28EEAF72001ED048 /* Main.storyboard in Resources */,
 				D6B0745C28EDF6AA00FD9E36 /* LaunchScreen.storyboard in Resources */,
 				D6B0745928EDF6AA00FD9E36 /* Assets.xcassets in Resources */,
-				D6B0745728EDF6A900FD9E36 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,6 +405,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D675D82C28EEAF72001ED048 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -317,6 +413,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D675D82D28EEAF72001ED048 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -328,10 +425,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				D6F36EC828EDFD4D00D6B20D /* PlanetsResultModel.swift in Sources */,
+				D675D84428EF068E001ED048 /* DetailViewController.swift in Sources */,
 				D6B0745428EDF6A900FD9E36 /* ViewController.swift in Sources */,
 				D6F36EC428EDFD0500D6B20D /* PlanetModel.swift in Sources */,
+				D6F36EE928EE110900D6B20D /* PlanetService.swift in Sources */,
+				D675D81428EEA7D9001ED048 /* Constant.swift in Sources */,
+				D675D83228EED4C2001ED048 /* APIEnvironment.swift in Sources */,
+				D675D83B28EEECBD001ED048 /* PlanetCustomCell.swift in Sources */,
+				D675D80F28EE9E11001ED048 /* PlanetViewModel.swift in Sources */,
+				D675D81E28EEAC20001ED048 /* View+Extension.swift in Sources */,
 				D6B0745028EDF6A900FD9E36 /* AppDelegate.swift in Sources */,
+				D675D83528EED735001ED048 /* APIEndPoints.swift in Sources */,
+				D675D83E28EEEEDF001ED048 /* LazyImageView.swift in Sources */,
 				D6B0745228EDF6A900FD9E36 /* SceneDelegate.swift in Sources */,
+				D675D83828EEEBDA001ED048 /* ServiceError.swift in Sources */,
+				D675D82228EEAC5A001ED048 /* ActivityIndicatorViewView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,9 +447,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D675D83928EEEBDA001ED048 /* ServiceError.swift in Sources */,
+				D6F36EEA28EE110900D6B20D /* PlanetService.swift in Sources */,
 				D6F36EC928EDFD4D00D6B20D /* PlanetsResultModel.swift in Sources */,
+				D675D82328EEAC5A001ED048 /* ActivityIndicatorViewView.swift in Sources */,
+				D675D83C28EEECBD001ED048 /* PlanetCustomCell.swift in Sources */,
 				D6B0746728EDF6AA00FD9E36 /* PlanetsTests.swift in Sources */,
+				D675D81528EEA7D9001ED048 /* Constant.swift in Sources */,
+				D675D83328EED4C2001ED048 /* APIEnvironment.swift in Sources */,
+				D675D81028EE9E11001ED048 /* PlanetViewModel.swift in Sources */,
+				D675D81F28EEAC20001ED048 /* View+Extension.swift in Sources */,
 				D6F36EC528EDFD0500D6B20D /* PlanetModel.swift in Sources */,
+				D675D84528EF068E001ED048 /* DetailViewController.swift in Sources */,
+				D675D83F28EEEEDF001ED048 /* LazyImageView.swift in Sources */,
+				D675D83628EED735001ED048 /* APIEndPoints.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -349,10 +468,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D6B0747328EDF6AA00FD9E36 /* PlanetsUITestsLaunchTests.swift in Sources */,
-				D6B0747128EDF6AA00FD9E36 /* PlanetsUITests.swift in Sources */,
+				D675D82428EEAC5A001ED048 /* ActivityIndicatorViewView.swift in Sources */,
 				D6F36ECA28EDFD4D00D6B20D /* PlanetsResultModel.swift in Sources */,
 				D6F36EC628EDFD0500D6B20D /* PlanetModel.swift in Sources */,
+				D675D82028EEAC20001ED048 /* View+Extension.swift in Sources */,
+				D675D81628EEA7D9001ED048 /* Constant.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -372,10 +492,10 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		D6B0745528EDF6A900FD9E36 /* Main.storyboard */ = {
+		D675D82928EEAF72001ED048 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				D6B0745628EDF6A900FD9E36 /* Base */,
+				D675D82A28EEAF72001ED048 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
