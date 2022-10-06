@@ -25,3 +25,4 @@ The Model layer is responsible for representing the data from our business logic
 ## App Structure
 
 
+![AppStructure](https://user-images.githubusercontent.com/4548032/194400270-434b23e6-20a0-4012-b895-7c649e32f9de.png)
