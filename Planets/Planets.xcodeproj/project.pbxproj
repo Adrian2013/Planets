@@ -25,8 +25,8 @@
 		D675D83328EED4C2001ED048 /* APIEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = D675D83128EED4C2001ED048 /* APIEnvironment.swift */; };
 		D675D83528EED735001ED048 /* APIEndPoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = D675D83428EED735001ED048 /* APIEndPoints.swift */; };
 		D675D83628EED735001ED048 /* APIEndPoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = D675D83428EED735001ED048 /* APIEndPoints.swift */; };
-		D675D83828EEEBDA001ED048 /* ServiceError.swift in Sources */ = {isa = PBXBuildFile; fileRef = D675D83728EEEBDA001ED048 /* ServiceError.swift */; };
-		D675D83928EEEBDA001ED048 /* ServiceError.swift in Sources */ = {isa = PBXBuildFile; fileRef = D675D83728EEEBDA001ED048 /* ServiceError.swift */; };
+		D675D83828EEEBDA001ED048 /* APIServiceError.swift in Sources */ = {isa = PBXBuildFile; fileRef = D675D83728EEEBDA001ED048 /* APIServiceError.swift */; };
+		D675D83928EEEBDA001ED048 /* APIServiceError.swift in Sources */ = {isa = PBXBuildFile; fileRef = D675D83728EEEBDA001ED048 /* APIServiceError.swift */; };
 		D675D83B28EEECBD001ED048 /* PlanetCustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D675D83A28EEECBD001ED048 /* PlanetCustomCell.swift */; };
 		D675D83C28EEECBD001ED048 /* PlanetCustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D675D83A28EEECBD001ED048 /* PlanetCustomCell.swift */; };
 		D675D83E28EEEEDF001ED048 /* LazyImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D675D83D28EEEEDF001ED048 /* LazyImageView.swift */; };
@@ -78,7 +78,7 @@
 		D675D82A28EEAF72001ED048 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Planets/Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D675D83128EED4C2001ED048 /* APIEnvironment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIEnvironment.swift; sourceTree = "<group>"; };
 		D675D83428EED735001ED048 /* APIEndPoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIEndPoints.swift; sourceTree = "<group>"; };
-		D675D83728EEEBDA001ED048 /* ServiceError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceError.swift; sourceTree = "<group>"; };
+		D675D83728EEEBDA001ED048 /* APIServiceError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIServiceError.swift; sourceTree = "<group>"; };
 		D675D83A28EEECBD001ED048 /* PlanetCustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetCustomCell.swift; sourceTree = "<group>"; };
 		D675D83D28EEEEDF001ED048 /* LazyImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyImageView.swift; sourceTree = "<group>"; };
 		D675D84328EF068E001ED048 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
@@ -275,7 +275,7 @@
 			isa = PBXGroup;
 			children = (
 				D6F36EE828EE110900D6B20D /* PlanetService.swift */,
-				D675D83728EEEBDA001ED048 /* ServiceError.swift */,
+				D675D83728EEEBDA001ED048 /* APIServiceError.swift */,
 			);
 			path = Service;
 			sourceTree = "<group>";
@@ -438,7 +438,7 @@
 				D675D83528EED735001ED048 /* APIEndPoints.swift in Sources */,
 				D675D83E28EEEEDF001ED048 /* LazyImageView.swift in Sources */,
 				D6B0745228EDF6A900FD9E36 /* SceneDelegate.swift in Sources */,
-				D675D83828EEEBDA001ED048 /* ServiceError.swift in Sources */,
+				D675D83828EEEBDA001ED048 /* APIServiceError.swift in Sources */,
 				D675D82228EEAC5A001ED048 /* ActivityIndicatorViewView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -447,7 +447,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D675D83928EEEBDA001ED048 /* ServiceError.swift in Sources */,
+				D675D83928EEEBDA001ED048 /* APIServiceError.swift in Sources */,
 				D6F36EEA28EE110900D6B20D /* PlanetService.swift in Sources */,
 				D6F36EC928EDFD4D00D6B20D /* PlanetsResultModel.swift in Sources */,
 				D675D82328EEAC5A001ED048 /* ActivityIndicatorViewView.swift in Sources */,

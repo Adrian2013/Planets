@@ -27,7 +27,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         setupUI()
         setupRx()
-        planetViewModel.getPlanets()
+        planetViewModel.getPlanetsList()
     }
     
     // MARK: UI binding

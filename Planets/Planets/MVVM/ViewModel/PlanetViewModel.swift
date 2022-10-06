@@ -15,17 +15,20 @@ struct PlanetViewModel {
     private var planetService:PlanetService?
     let planets:PublishSubject<[PlanetModel]> = PublishSubject()
     let isLoading:PublishSubject<Bool> = PublishSubject()
-    let error:PublishSubject<ServiceError> = PublishSubject()
+    let error:PublishSubject<APIServiceError> = PublishSubject()
     
     
     /// Initialize a new object (the receiver) immediately after memory for it has been allocated.
     /// - Parameter service: The planet api service
     init(service:PlanetService) {
+        
         self.planetService = service
+        
     }
     
     /// Get planet list
-    func getPlanets() {
+    func getPlanetsList() {
+        
         isLoading.onNext(true)
         planetService?.getPlanets(completion: { (result) in
             isLoading.onNext(false)

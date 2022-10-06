@@ -7,7 +7,7 @@
 
 import Foundation
 
-enum ServiceError: Error {
+enum APIServiceError: Error {
     
     case ErrorMessage(message:String)
     

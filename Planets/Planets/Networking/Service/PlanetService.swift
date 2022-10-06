@@ -13,7 +13,7 @@ import Alamofire
 
 class PlanetService{
     
-    func getPlanets(completion: @escaping (Result<[PlanetModel],ServiceError>) -> Void){
+    func getPlanets(completion: @escaping (Result<[PlanetModel],APIServiceError>) -> Void){
         
         let requestURL =  APIEndPoints().getPlanetsEndPoint
         
@@ -26,10 +26,10 @@ class PlanetService{
                 if let result = response.value {
                     completion(.success(result.results))
                 }else{
-                    completion(.failure(ServiceError.ErrorMessage(message: "Unable to retrive data!")))
+                    completion(.failure(APIServiceError.ErrorMessage(message: "Unable to retrive data!")))
                 }
             case let .failure(error):
-                completion(.failure(ServiceError.ErrorMessage(message: error.localizedDescription)))
+                completion(.failure(APIServiceError.ErrorMessage(message: error.localizedDescription)))
             }
             
         }
