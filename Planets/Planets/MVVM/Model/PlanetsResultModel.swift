@@ -8,5 +8,7 @@
 import Foundation
 
 struct PlanetsResultModel:Codable {
-    let result : [Planet]
+    
+    let results : [PlanetModel]
+    
 }
