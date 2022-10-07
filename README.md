@@ -28,8 +28,16 @@ I tend to set up my project folder structure like this
 ![Package](https://user-images.githubusercontent.com/4548032/194442927-c05cefba-3cf2-434c-accd-80c8024b1edb.png)
 ![AppStructure2](https://user-images.githubusercontent.com/4548032/194400957-5cb781dc-5fda-4f2d-8b5d-fcbb4fa2cde2.png)
 
-##Third-Party Libraries
+## Third-Party Libraries
 I am using Swift Package Manager to add external libraries in Xcode project.
+
+![PakageDependencies](https://user-images.githubusercontent.com/4548032/194472078-f33a1de0-ea14-4146-8689-359e92b036dd.png)
+
+Libraries
+
+* RxSwift 6.5.0 
+* Alamofire 5.5.0 
+* RxDataSources 5.0.2
 
 
 
