@@ -23,10 +23,14 @@ MVVM stands for Model View View Model.
 The Model layer is responsible for representing the data from our business logic. The Model doesn’t know any other layer.
 
 ## App Structure
-I tend to set up my project structure like this
+I tend to set up my project folder structure like this
 
 ![Package](https://user-images.githubusercontent.com/4548032/194442927-c05cefba-3cf2-434c-accd-80c8024b1edb.png)
 ![AppStructure2](https://user-images.githubusercontent.com/4548032/194400957-5cb781dc-5fda-4f2d-8b5d-fcbb4fa2cde2.png)
+
+##Third-Party Libraries
+I am using Swift Package Manager to add external libraries in Xcode project.
+
 
 
 
