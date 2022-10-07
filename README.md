@@ -9,6 +9,10 @@ The following items will show in detail view.
 * Orbital Period 
 * Gravity 
 
+
+https://user-images.githubusercontent.com/4548032/194476355-d7711bb5-0d0c-4c52-8de7-8e2a1959baf3.mov
+
+
 ## Architecture 
 This project follows the MVVM architectural pattern.
 MVVM stands for Model View View Model. 
