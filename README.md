@@ -35,6 +35,48 @@ I tend to set up my project folder structure like this
 ![Package](https://user-images.githubusercontent.com/4548032/194442927-c05cefba-3cf2-434c-accd-80c8024b1edb.png)
 ![AppStructure2](https://user-images.githubusercontent.com/4548032/194400957-5cb781dc-5fda-4f2d-8b5d-fcbb4fa2cde2.png)
 
+
+Explaining a little bit more of each follder:
+
+### Model 
+
+Where I keep all the Model Objects 
+
+* PlanetModel
+
+* PlanetsResultModel
+
+
+### View 
+
+Here is where I store the View components, such as cells, custom views, buttons, etc.
+Even the name is ViewController, here is the View Part of the MVVM. I use this name due to the UIViewControllers elements from iOS. We shouldn’t have business logic inside any controller, just UI Related code.
+
+* ViewController  : Show the planet list
+
+* DetailViewController : Show planet information
+
+
+### View Model
+
+Where I keep all the ViewModel Classes. I write business logic in PlanetViewModel class,
+
+* PlanetViewModel : The implementation of getPlanetsList API call(Business Logic) and published the model
+
+### Network
+Where I keep all Network API call classes
+
+* PlanetService - Which get planet list from  https://swapi.dev/ 
+
+* APIEndPoints - Implement endpoints to get planet list.  Ex : Handling base url
+
+### Resources
+Where I keep all Constants classes
+
+
+### Extension
+Where I keep all Extension classes. Ex:  View+Extension
+
 ## Third-Party Libraries
 I am using Swift Package Manager to add external libraries in Xcode project.
 
