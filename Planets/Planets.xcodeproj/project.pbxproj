@@ -15,9 +15,9 @@
 		D675D81E28EEAC20001ED048 /* View+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D675D81D28EEAC20001ED048 /* View+Extension.swift */; };
 		D675D81F28EEAC20001ED048 /* View+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D675D81D28EEAC20001ED048 /* View+Extension.swift */; };
 		D675D82028EEAC20001ED048 /* View+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D675D81D28EEAC20001ED048 /* View+Extension.swift */; };
-		D675D82228EEAC5A001ED048 /* ActivityIndicatorViewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D675D82128EEAC5A001ED048 /* ActivityIndicatorViewView.swift */; };
-		D675D82328EEAC5A001ED048 /* ActivityIndicatorViewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D675D82128EEAC5A001ED048 /* ActivityIndicatorViewView.swift */; };
-		D675D82428EEAC5A001ED048 /* ActivityIndicatorViewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D675D82128EEAC5A001ED048 /* ActivityIndicatorViewView.swift */; };
+		D675D82228EEAC5A001ED048 /* ActivityIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D675D82128EEAC5A001ED048 /* ActivityIndicatorView.swift */; };
+		D675D82328EEAC5A001ED048 /* ActivityIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D675D82128EEAC5A001ED048 /* ActivityIndicatorView.swift */; };
+		D675D82428EEAC5A001ED048 /* ActivityIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D675D82128EEAC5A001ED048 /* ActivityIndicatorView.swift */; };
 		D675D82B28EEAF72001ED048 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D675D82928EEAF72001ED048 /* Main.storyboard */; };
 		D675D82C28EEAF72001ED048 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D675D82928EEAF72001ED048 /* Main.storyboard */; };
 		D675D82D28EEAF72001ED048 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D675D82928EEAF72001ED048 /* Main.storyboard */; };
@@ -33,6 +33,7 @@
 		D675D83F28EEEEDF001ED048 /* LazyImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D675D83D28EEEEDF001ED048 /* LazyImageView.swift */; };
 		D675D84428EF068E001ED048 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D675D84328EF068E001ED048 /* DetailViewController.swift */; };
 		D675D84528EF068E001ED048 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D675D84328EF068E001ED048 /* DetailViewController.swift */; };
+		D675D85728F018B5001ED048 /* RxDataSources in Frameworks */ = {isa = PBXBuildFile; productRef = D675D85628F018B5001ED048 /* RxDataSources */; };
 		D6B0745028EDF6A900FD9E36 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B0744F28EDF6A900FD9E36 /* AppDelegate.swift */; };
 		D6B0745228EDF6A900FD9E36 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B0745128EDF6A900FD9E36 /* SceneDelegate.swift */; };
 		D6B0745428EDF6A900FD9E36 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B0745328EDF6A900FD9E36 /* ViewController.swift */; };
@@ -74,7 +75,7 @@
 		D675D80E28EE9E11001ED048 /* PlanetViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetViewModel.swift; sourceTree = "<group>"; };
 		D675D81328EEA7D9001ED048 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 		D675D81D28EEAC20001ED048 /* View+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extension.swift"; sourceTree = "<group>"; };
-		D675D82128EEAC5A001ED048 /* ActivityIndicatorViewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicatorViewView.swift; sourceTree = "<group>"; };
+		D675D82128EEAC5A001ED048 /* ActivityIndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicatorView.swift; sourceTree = "<group>"; };
 		D675D82A28EEAF72001ED048 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Planets/Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D675D83128EED4C2001ED048 /* APIEnvironment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIEnvironment.swift; sourceTree = "<group>"; };
 		D675D83428EED735001ED048 /* APIEndPoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIEndPoints.swift; sourceTree = "<group>"; };
@@ -107,6 +108,7 @@
 				D6F36EBF28EDFBAA00D6B20D /* Alamofire in Frameworks */,
 				D6F36EC228EDFC3300D6B20D /* RxDataSources in Frameworks */,
 				D6F36EBC28EDFA1F00D6B20D /* RxSwift in Frameworks */,
+				D675D85728F018B5001ED048 /* RxDataSources in Frameworks */,
 				D6F36EBA28EDFA1F00D6B20D /* RxCocoa in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -139,7 +141,7 @@
 		D675D81728EEA932001ED048 /* UIComponents */ = {
 			isa = PBXGroup;
 			children = (
-				D675D82128EEAC5A001ED048 /* ActivityIndicatorViewView.swift */,
+				D675D82128EEAC5A001ED048 /* ActivityIndicatorView.swift */,
 				D675D83A28EEECBD001ED048 /* PlanetCustomCell.swift */,
 				D675D83D28EEEEDF001ED048 /* LazyImageView.swift */,
 			);
@@ -301,6 +303,7 @@
 				D6F36EBB28EDFA1F00D6B20D /* RxSwift */,
 				D6F36EBE28EDFBAA00D6B20D /* Alamofire */,
 				D6F36EC128EDFC3300D6B20D /* RxDataSources */,
+				D675D85628F018B5001ED048 /* RxDataSources */,
 			);
 			productName = Planets;
 			productReference = D6B0744C28EDF6A900FD9E36 /* Planets.app */;
@@ -378,6 +381,7 @@
 				D6F36EB828EDFA1F00D6B20D /* XCRemoteSwiftPackageReference "RxSwift" */,
 				D6F36EBD28EDFBAA00D6B20D /* XCRemoteSwiftPackageReference "Alamofire" */,
 				D6F36EC028EDFC3300D6B20D /* XCRemoteSwiftPackageReference "RxDataSources" */,
+				D675D85528F018B5001ED048 /* XCRemoteSwiftPackageReference "RxDataSources" */,
 			);
 			productRefGroup = D6B0744D28EDF6A900FD9E36 /* Products */;
 			projectDirPath = "";
@@ -439,7 +443,7 @@
 				D675D83E28EEEEDF001ED048 /* LazyImageView.swift in Sources */,
 				D6B0745228EDF6A900FD9E36 /* SceneDelegate.swift in Sources */,
 				D675D83828EEEBDA001ED048 /* APIServiceError.swift in Sources */,
-				D675D82228EEAC5A001ED048 /* ActivityIndicatorViewView.swift in Sources */,
+				D675D82228EEAC5A001ED048 /* ActivityIndicatorView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -450,7 +454,7 @@
 				D675D83928EEEBDA001ED048 /* APIServiceError.swift in Sources */,
 				D6F36EEA28EE110900D6B20D /* PlanetService.swift in Sources */,
 				D6F36EC928EDFD4D00D6B20D /* PlanetsResultModel.swift in Sources */,
-				D675D82328EEAC5A001ED048 /* ActivityIndicatorViewView.swift in Sources */,
+				D675D82328EEAC5A001ED048 /* ActivityIndicatorView.swift in Sources */,
 				D675D83C28EEECBD001ED048 /* PlanetCustomCell.swift in Sources */,
 				D6B0746728EDF6AA00FD9E36 /* PlanetsTests.swift in Sources */,
 				D675D81528EEA7D9001ED048 /* Constant.swift in Sources */,
@@ -468,7 +472,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D675D82428EEAC5A001ED048 /* ActivityIndicatorViewView.swift in Sources */,
+				D675D82428EEAC5A001ED048 /* ActivityIndicatorView.swift in Sources */,
 				D6F36ECA28EDFD4D00D6B20D /* PlanetsResultModel.swift in Sources */,
 				D6F36EC628EDFD0500D6B20D /* PlanetModel.swift in Sources */,
 				D675D82028EEAC20001ED048 /* View+Extension.swift in Sources */,
@@ -799,6 +803,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		D675D85528F018B5001ED048 /* XCRemoteSwiftPackageReference "RxDataSources" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/RxSwiftCommunity/RxDataSources.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
 		D6F36EB828EDFA1F00D6B20D /* XCRemoteSwiftPackageReference "RxSwift" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/ReactiveX/RxSwift.git";
@@ -826,6 +838,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		D675D85628F018B5001ED048 /* RxDataSources */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D675D85528F018B5001ED048 /* XCRemoteSwiftPackageReference "RxDataSources" */;
+			productName = RxDataSources;
+		};
 		D6F36EB928EDFA1F00D6B20D /* RxCocoa */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = D6F36EB828EDFA1F00D6B20D /* XCRemoteSwiftPackageReference "RxSwift" */;

@@ -1,5 +1,5 @@
 //
-//  LoaderView.swift
+//  ActivityIndicatorView.swift
 //  Planets
 //
 //  Created by Dhanushka Adrian on 2022-10-06.
