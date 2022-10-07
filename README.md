@@ -92,6 +92,7 @@ I am using Swift Package Manager to add external libraries in Xcode project.
 
 After cloning or download project, you will get following error.
 
+<img width="828" alt="Screenshot 2022-10-07 at 1 56 41 PM" src="https://user-images.githubusercontent.com/4548032/194510429-9815d72d-5a99-4425-857f-9850e9c5b5ac.png">
 
 
 
