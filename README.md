@@ -33,7 +33,7 @@ I am using Swift Package Manager to add external libraries in Xcode project.
 
 ![PakageDependencies](https://user-images.githubusercontent.com/4548032/194472078-f33a1de0-ea14-4146-8689-359e92b036dd.png)
 
-Libraries
+### Package Information
 
 * RxSwift 6.5.0       URL: https://github.com/ReactiveX/RxSwift.git
 * Alamofire 5.5.0     URL: https://github.com/Alamofire/Alamofire.git
