@@ -35,9 +35,9 @@ I am using Swift Package Manager to add external libraries in Xcode project.
 
 Libraries
 
-* RxSwift 6.5.0 
-* Alamofire 5.5.0 
-* RxDataSources 5.0.2
+* RxSwift 6.5.0       URL: https://github.com/ReactiveX/RxSwift.git
+* Alamofire 5.5.0     URL: https://github.com/Alamofire/Alamofire.git
+* RxDataSources 5.0.2 URL: https://github.com/RxSwiftCommunity/RxDataSources.git 
 
 
 
