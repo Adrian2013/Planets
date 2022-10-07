@@ -90,10 +90,20 @@ I am using Swift Package Manager to add external libraries in Xcode project.
 
 ## Troubleshooting
 
+###Issue
+
 After cloning or download project, you will get following error.
 
 <img width="274" alt="Screenshot 2022-10-07 at 2 01 33 PM" src="https://user-images.githubusercontent.com/4548032/194510799-e12b9ec9-6f09-4453-8488-0c2b51c25f7f.png">
 <img width="828" alt="Screenshot 2022-10-07 at 1 56 41 PM" src="https://user-images.githubusercontent.com/4548032/194510429-9815d72d-5a99-4425-857f-9850e9c5b5ac.png">
+
+### Soulution
+
+Add package
+
+<img width="577" alt="Screenshot 2022-10-07 at 1 57 09 PM" src="https://user-images.githubusercontent.com/4548032/194511544-802e8cf6-0380-4ee1-a36f-e29c7523e703.png">
+
+
 
 
 
