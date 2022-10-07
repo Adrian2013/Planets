@@ -108,8 +108,12 @@ Add package
 
 <img width="721" alt="Screenshot 2022-10-07 at 1 57 45 PM" src="https://user-images.githubusercontent.com/4548032/194512297-ec8fc836-b9fd-475c-8f60-b398f9eefcd2.png">
 
+After adding all packages. You can see Package Dependencies section like this and there are no build issues.
 
 <img width="274" alt="Screenshot 2022-10-07 at 1 58 31 PM" src="https://user-images.githubusercontent.com/4548032/194512359-b014e54a-6e5b-4f01-8f8c-6c23ae42bc0d.png">
+
+
+
 
 
 
