@@ -88,7 +88,7 @@ I am using Swift Package Manager to add external libraries in Xcode project.
 * Alamofire 5.5.0  (URL: https://github.com/Alamofire/Alamofire.git)
 * RxDataSources 5.0.2 (URL: https://github.com/RxSwiftCommunity/RxDataSources.git)
 
-### Troubleshooting
+## Troubleshooting
 
 After cloning or download project, you will get following error.
 
