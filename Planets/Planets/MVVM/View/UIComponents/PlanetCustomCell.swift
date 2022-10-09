@@ -92,8 +92,8 @@ class PlanetCustomCell: UICollectionViewCell {
     private func loadPlanetImage() {
         
         let imageURL:String = "https://picsum.photos/seed"
-        let randomSeed = Int.random(in: 1...600)
-        let randomImageURL = "\(imageURL)/\(randomSeed)/200"
+        let randomNumber = Int.random(in: 1...600)
+        let randomImageURL = "\(imageURL)/\(randomNumber)/200"
         
         AF.request(randomImageURL,method: .get).response{ response in
             

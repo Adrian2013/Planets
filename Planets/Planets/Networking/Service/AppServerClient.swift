@@ -29,6 +29,7 @@ class AppServerClient {
                     return
                     
                 }
+                
                 completion(.success(planet.results))
                 
             case let .failure(error):

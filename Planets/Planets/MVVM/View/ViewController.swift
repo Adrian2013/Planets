@@ -34,14 +34,14 @@ class ViewController: UIViewController {
     /// Bind the api response into ui
     private func setupRx(){
         
-        planetViewModel.planets
+        planetViewModel.planetsPublisheSubject
             .observe(on: MainScheduler.instance)
             .bind(to: collectionView!.rx.items(cellIdentifier: PlanetCustomCell.identifier, cellType: PlanetCustomCell.self)){ row,data, cell in
                 cell.configure(planetModel: data)
             }
             .disposed(by: disposeBag)
         
-        planetViewModel.isLoading
+        planetViewModel.loadingStatusPublishSubject
             .observe(on: MainScheduler.instance)
             .subscribe(onNext:{ status in
                 if status {
@@ -53,7 +53,7 @@ class ViewController: UIViewController {
             })
             .disposed(by: disposeBag)
         
-        planetViewModel.error
+        planetViewModel.errorPublishSubject
             .observe(on: MainScheduler.instance)
             .subscribe(onNext:{ error in
                 self.showMessage(title: PlanetListViewString.errorMessageTitle, message: error.localizedDescription)
