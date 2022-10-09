@@ -30,21 +30,9 @@ struct PlanetViewModel {
     
     /// Get planet list
     func getPlanetsList() {
-//
-//        isLoading.onNext(true)
-//        planetService?.getPlanets(completion: { (result) in
-//            isLoading.onNext(false)
-//            switch result{
-//            case let .success(data):
-//                planets.onNext(data)
-//            case let .failure(apiError):
-//                error.onNext(apiError!)
-//            }
-//        })
         
-        
+        isLoading.onNext(true)
         planetService?.getPlanets(completion: { (result) in
-            //self?.showLoadingHud.value = false
             isLoading.onNext(false)
             switch result{
             case let .success(data):
