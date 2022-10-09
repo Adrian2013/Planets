@@ -12,7 +12,9 @@ import RxSwift
 /// Receives data from VC, handles all this information, and sends it back to VC.
 struct PlanetViewModel {
     
-    private var planetService:PlanetService?
+    private var planetService:AppServerClient?
+   
+    
     let planets:PublishSubject<[PlanetModel]> = PublishSubject()
     let isLoading:PublishSubject<Bool> = PublishSubject()
     let error:PublishSubject<APIServiceError> = PublishSubject()
@@ -20,7 +22,7 @@ struct PlanetViewModel {
     
     /// Initialize a new object (the receiver) immediately after memory for it has been allocated.
     /// - Parameter service: The planet api service
-    init(service:PlanetService) {
+    init(service:AppServerClient) {
         
         self.planetService = service
         
@@ -28,9 +30,21 @@ struct PlanetViewModel {
     
     /// Get planet list
     func getPlanetsList() {
+//
+//        isLoading.onNext(true)
+//        planetService?.getPlanets(completion: { (result) in
+//            isLoading.onNext(false)
+//            switch result{
+//            case let .success(data):
+//                planets.onNext(data)
+//            case let .failure(apiError):
+//                error.onNext(apiError!)
+//            }
+//        })
         
-        isLoading.onNext(true)
+        
         planetService?.getPlanets(completion: { (result) in
+            //self?.showLoadingHud.value = false
             isLoading.onNext(false)
             switch result{
             case let .success(data):
@@ -39,7 +53,7 @@ struct PlanetViewModel {
                 error.onNext(apiError)
             }
         })
-        
+    
     }
     
     

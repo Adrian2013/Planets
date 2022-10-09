@@ -50,8 +50,8 @@
 		D6F36EC828EDFD4D00D6B20D /* PlanetsResultModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6F36EC728EDFD4D00D6B20D /* PlanetsResultModel.swift */; };
 		D6F36EC928EDFD4D00D6B20D /* PlanetsResultModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6F36EC728EDFD4D00D6B20D /* PlanetsResultModel.swift */; };
 		D6F36ECA28EDFD4D00D6B20D /* PlanetsResultModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6F36EC728EDFD4D00D6B20D /* PlanetsResultModel.swift */; };
-		D6F36EE928EE110900D6B20D /* PlanetService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6F36EE828EE110900D6B20D /* PlanetService.swift */; };
-		D6F36EEA28EE110900D6B20D /* PlanetService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6F36EE828EE110900D6B20D /* PlanetService.swift */; };
+		D6F36EE928EE110900D6B20D /* AppServerClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6F36EE828EE110900D6B20D /* AppServerClient.swift */; };
+		D6F36EEA28EE110900D6B20D /* AppServerClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6F36EE828EE110900D6B20D /* AppServerClient.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -97,7 +97,7 @@
 		D6B0747228EDF6AA00FD9E36 /* PlanetsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetsUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		D6F36EC328EDFD0500D6B20D /* PlanetModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetModel.swift; sourceTree = "<group>"; };
 		D6F36EC728EDFD4D00D6B20D /* PlanetsResultModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetsResultModel.swift; sourceTree = "<group>"; };
-		D6F36EE828EE110900D6B20D /* PlanetService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetService.swift; sourceTree = "<group>"; };
+		D6F36EE828EE110900D6B20D /* AppServerClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppServerClient.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -276,7 +276,7 @@
 		D6F36EE728EE10E000D6B20D /* Service */ = {
 			isa = PBXGroup;
 			children = (
-				D6F36EE828EE110900D6B20D /* PlanetService.swift */,
+				D6F36EE828EE110900D6B20D /* AppServerClient.swift */,
 				D675D83728EEEBDA001ED048 /* APIServiceError.swift */,
 			);
 			path = Service;
@@ -432,7 +432,7 @@
 				D675D84428EF068E001ED048 /* DetailViewController.swift in Sources */,
 				D6B0745428EDF6A900FD9E36 /* ViewController.swift in Sources */,
 				D6F36EC428EDFD0500D6B20D /* PlanetModel.swift in Sources */,
-				D6F36EE928EE110900D6B20D /* PlanetService.swift in Sources */,
+				D6F36EE928EE110900D6B20D /* AppServerClient.swift in Sources */,
 				D675D81428EEA7D9001ED048 /* Constant.swift in Sources */,
 				D675D83228EED4C2001ED048 /* APIEnvironment.swift in Sources */,
 				D675D83B28EEECBD001ED048 /* PlanetCustomCell.swift in Sources */,
@@ -452,7 +452,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D675D83928EEEBDA001ED048 /* APIServiceError.swift in Sources */,
-				D6F36EEA28EE110900D6B20D /* PlanetService.swift in Sources */,
+				D6F36EEA28EE110900D6B20D /* AppServerClient.swift in Sources */,
 				D6F36EC928EDFD4D00D6B20D /* PlanetsResultModel.swift in Sources */,
 				D675D82328EEAC5A001ED048 /* ActivityIndicatorView.swift in Sources */,
 				D675D83C28EEECBD001ED048 /* PlanetCustomCell.swift in Sources */,

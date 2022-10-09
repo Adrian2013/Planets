@@ -12,3 +12,9 @@ enum APIServiceError: Error {
     case ErrorMessage(message:String)
     
 }
+
+enum GetPlanetFailureReason: Int, Error {
+    case unAuthorized = 401
+    case notFound = 404
+    
+}

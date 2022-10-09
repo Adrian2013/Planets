@@ -15,7 +15,7 @@ class ViewController: UIViewController {
     
     // MARK: Properties
     private let planetViewModel:PlanetViewModel = PlanetViewModel(
-        service: PlanetService()
+        service: AppServerClient()
     )
     private var collectionView:UICollectionView?
     let disposeBag = DisposeBag()

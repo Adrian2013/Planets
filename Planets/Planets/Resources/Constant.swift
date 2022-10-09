@@ -31,6 +31,13 @@ struct PlaneCustomCellString {
     
 }
 
+struct PlanetErrorMessage {
+    
+    static var errorMessage    = "Response Error"
+    
+}
+
+
 struct ColorConstant {
     
     static var backgroundColor:UIColor {
