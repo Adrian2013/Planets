@@ -66,7 +66,7 @@ Where I keep all the ViewModel Classes. I write business logic in PlanetViewMode
 ### Network
 Where I keep all Network API call classes
 
-* PlanetService - Get planet list from  https://swapi.dev/  api
+* AppServerClient - Get planet list from  https://swapi.dev/  api
 
 * APIEndPoints - Implement endpoints to get planet list.  Ex : Handling base url
 
